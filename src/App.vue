@@ -79,7 +79,7 @@ h1 {
   color: transparent;
 }
 h2 {
-  font-family: 'Roboto,Helvetica Neue,Arial,sans-serif;
+  font-family: Roboto,Helvetica Neue,Arial,sans-serif;
   font-size: 4rem;
   margin: 0;
   line-height: 1.2;
