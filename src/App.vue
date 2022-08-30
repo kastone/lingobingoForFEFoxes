@@ -1,7 +1,8 @@
 <template>
   <main>
-    <h1>Lingo Bingo - Front-End Foxes Edition</h1>
-    <h2>(credit to https://github.com/postmodernistx/lingobingo)</h2>
+    <h1>Lingo Bingo</h1>
+    <h2Front-End Foxes Edition</h2>
+    <h3>(credit to https://github.com/postmodernistx/lingobingo)</h3>
     <p>Click/space to select a tile</p>
     <div class="board">
       <CellButton :word="item" v-for="(item, index) in words" :key="`word-${index}`" />
@@ -63,6 +64,23 @@ export default {
 h1 {
   font-family: 'Rock 3D', cursive;
   font-size: 8rem;
+  margin: 0;
+  line-height: 1.2;
+  background-image: linear-gradient(to left,
+      #deeb34,
+      #ebd634,
+      #eb9c34,
+      #eb6534,
+      #eb3734,
+      #eb345f,
+      #eb34df
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+h2 {
+  font-family: 'Roboto,Helvetica Neue,Arial,sans-serif;
+  font-size: 4rem;
   margin: 0;
   line-height: 1.2;
   background-image: linear-gradient(to left,
