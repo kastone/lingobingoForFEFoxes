@@ -18,11 +18,11 @@ export default {
   components: { CellButton },
   data() {
     return {
-      words: ['Zoomd in 2020', 'Bought something online', 'has made a Sketchnote', 'Danced by myself to fill in blank', 'Sang Karaoke',
-        'Is a musician', 'Owns an unconventional pet', 'Rick rolled someone', 'Traded Crypto', 'Replied All Accidentally',
-        'Commented on Tweet by someone famous', 'Took a selfie with someone famous', 'Has a GitHub account', 'Logged into Github', 'Downloaded VSCode',
-        'Sold something on EBay-or other', 'Created something on DALL-e', 'Opened Browser Console', 'Seen a broken link on a Website', 'Is an artist',
-        'Is a student', 'Saw a fox in nature', 'Wants to learn to code', 'Is an athelete', 'Loves to read',
+      words: ['Zoomed in 2020', 'Bought something online', 'Made a Sketchnote', 'Danced by myself to fill in blank', 'Sang Karaoke',
+        'Is a musician', 'Owns an unconventional pet', 'Rickrolled someone', 'Traded Crypto', 'Replied All Accidentally',
+        'Commented on Tweet by someone famous', 'Took a selfie with someone famous', 'Has a GitHub account', 'Logged into GitHub', 'Downloaded VS Code',
+        'Sold something on eBay or other', 'Created something on DALL-e', 'Opened my Browser Console', 'Has seen a broken link on a Website', 'Is an artist',
+        'Is a student', 'Has seen a fox in nature', 'Wants to learn to code', 'Is an athelete', 'Loves to read',
       ],
     };
   },
