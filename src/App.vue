@@ -17,11 +17,11 @@ export default {
   components: { CellButton },
   data() {
     return {
-      words: ['Lighthouse', 'Primary color', 'sans-serif', 'SEO', 'graphic profile',
-        'secondary color', 'color wheel', 'UI/UX', 'gitmoji', 'React',
-        'Vue', 'Sass', 'Illustrator', 'Photoshop', 'Figma',
-        'pull request', 'API', 'a11y', 'Internet Explorer', 'WordPress',
-        'Heroku', 'HTML', 'router', 'responsive', 'agile',
+      words: ['Zoom'd in 2020', 'Bought something online', 'has made a Sketchnote', 'Danced by myself to ?', 'Sang Karaoke',
+        'Is a musician', 'Owns an unconventional pet', 'Rick-rolled someone', 'Traded Crypto', 'Replied All Accidentally',
+        'Commented on Tweet by someone famous', 'Took a selfie with someone famous', 'Has a GitHub account', 'Logged into Github', 'Downloaded VSCode',
+        'Sold something on EBay(or other)', 'Created something on DALL-e', 'Opened Browser Console', 'Seen a broken link on a Website', 'Is an artist',
+        'Is a student', 'Saw a fox in nature', 'Wants to learn to code', 'Is an athelete', 'Loves to read',
       ],
     };
   },
