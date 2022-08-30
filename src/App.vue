@@ -1,7 +1,7 @@
 <template>
   <main>
     <h1>Lingo Bingo</h1>
-    <h2Front-End Foxes Edition</h2>
+    <h2>Front-End Foxes Edition</h2>
     <h3>(credit to https://github.com/postmodernistx/lingobingo)</h3>
     <p>Click/space to select a tile</p>
     <div class="board">
