@@ -1,7 +1,8 @@
 <template>
   <main>
     <h1>Lingo Bingo</h1>
-    <p>Klicka/space för att markera en bricka</p>
+    <h2>(credit to https://github.com/postmodernistx/lingobingo)</h2>
+    <p>Click/space to select a tile</p>
     <div class="board">
       <CellButton :word="item" v-for="(item, index) in words" :key="`word-${index}`" />
     </div>
