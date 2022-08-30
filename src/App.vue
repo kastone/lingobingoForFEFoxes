@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>Lingo Bingo</h1>
+    <h1>Lingo Bingo - Front-End Foxes Edition</h1>
     <h2>(credit to https://github.com/postmodernistx/lingobingo)</h2>
     <p>Click/space to select a tile</p>
     <div class="board">
@@ -66,13 +66,13 @@ h1 {
   margin: 0;
   line-height: 1.2;
   background-image: linear-gradient(to left,
-      #0dc4b7,
-      #9a2654,
-      #2a47d5,
-      #19d519,
-      #e9ff00,
-      #ff8000,
-      #f30a0a
+      #deeb34,
+      #ebd634,
+      #eb9c34,
+      #eb6534,
+      #eb3734,
+      #eb345f,
+      #eb34df
   );
   -webkit-background-clip: text;
   color: transparent;
