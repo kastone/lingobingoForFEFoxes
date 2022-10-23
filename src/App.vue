@@ -18,7 +18,7 @@ export default {
   components: { CellButton },
   data() {
     return {
-      words: ['Zoomed in 2022', 'Forked a repo in GitHub', 'Made a Sketchnote', 'Submitted a PR', 'Saw an amazing movie',
+      words: ['Zoomed in 2022', 'Forked a repo in GitHub', 'Made a Sketchnote', 'Submitted a PR', 'Is interested in mentoring future cohort',
         'Heard a good tech talk', 'Had really good food out', 'Slacked with my Mentor', 'Used the DevTools debugger', 'Found a good tech resource',
         'Rode on an airplane recently', 'Loves confetti', 'Has a GitHub account', 'Logged into GitHub', 'Downloaded VS Code',
         'Is proud of their portfolio', 'Found something new in Dev Tools', 'Opened my Browser Console', 'Understands accessibility better', 'Downloaded a VSCode Extension',
