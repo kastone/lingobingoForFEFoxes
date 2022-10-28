@@ -4,7 +4,7 @@
     <h2>(credit to https://github.com/postmodernistx/lingobingo)</h2>
 
     <p :class="{ active: isBingo }">
-      {{ !isBingo ? "Click/space to select a tile" : "BINGO!" }}
+      {{ !isBingo ? 'Click/space to select a tile' : 'BINGO!' }}
     </p>
     <div class="board">
       <CellButton
@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import CellButton from './components/Cell.vue';
+import CellButton from '@/components/Cell.vue';
 
 export default {
   name: 'App',
@@ -144,7 +144,7 @@ export default {
   margin-top: 60px;
 }
 h1 {
-  font-family: "Rock 3D", cursive;
+  font-family: 'Rock 3D', cursive;
   font-size: 8rem;
   margin: 0;
   line-height: 1.2;
