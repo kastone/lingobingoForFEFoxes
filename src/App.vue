@@ -10,7 +10,7 @@
       <CellButton
         :word="item"
         v-for="(item, index) in words"
-        :key="index"
+        :key="`word-${index}`"
         @click="win(index)"
         :disabled="isBingo"
       />
